@@ -60,7 +60,7 @@ String str1 = "abc"; // 在常量池中
 String str2 = new String("abc"); // 在堆上
 ```
 
-<img src="https://imgconvert.csdnimg.cn/aHR0cDovL3d3dy5jaG91cGFuZ3hpYS5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDgvc3RyaW5nMS5qcGc?x-oss-process=image/format,png" alt="image" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/fangyunzhe/pictures/main/format%252Cpng.jpeg" alt="image" style="zoom: 50%;" />
 
 当直接赋值时，字符串 "abc" 会被存储在常量池中，只有一份，此时赋值操作等于是创建 0 个或 1 个对象，取决于常量池中是否已经存在字符串 "abc"。
 
@@ -158,7 +158,6 @@ class User implements Serializable {
 3. Stream API：是对集合对象功能的增强，提供了各种非常便利、高效的操作
 4. 新的时间和日期的 API
 5. 其它新特性：如 HashMap、ConcurrentHashMap的结构变化
-6. 52fc21008dc6030ec46a240b36475d429f11b484
 
 ### 9. 快速失败和安全失败.
 
